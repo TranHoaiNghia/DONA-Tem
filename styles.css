@@ -166,7 +166,7 @@ body {
     .container {
         margin: 0;
         width: 90%;
-        page-break-inside: avoid; /* Tránh vỡ trang */
+        page-break-inside: avoid;
     }
 
     .header_info img {
@@ -219,7 +219,7 @@ body {
     }
 
     @page {
-        margin: 0; /* Xóa khoảng trắng mặc định khi in */
-        size: auto; /* Tự động căn chỉnh kích thước */
+        margin: 0;
+        size: auto;
     }
 }
